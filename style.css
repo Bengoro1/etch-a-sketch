@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    width: 960px;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    margin: 8px;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+.heightDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.widthDiv {
+    border: 1px solid red;
+    width: 46px;
+    height: 46px;
+}
+
+
